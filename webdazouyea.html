@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		yushi
+	</title>
+	<style type="text/css">
+		#uptop p{
+			float:left;
+			font-size:12px;
+			margin-top:4px;
+			padding-left: 700px;
+		}
+		a{
+			text-decoration:none;
+			font-size:14px;
+			color:black;
+		}
+
+		.u1{
+			padding-left:40px;
+			font-weight:bold;
+		}
+		.u2{
+			padding-left:26px;
+			font-weight:bold;
+		}
+		.u3{
+			padding-left:40px;
+		}
+		.u4{
+			padding-left:10px;
+		}
+		.u5{
+			padding-left:10px;
+		}
+		.u6{
+			padding-left:25px;
+		}
+		
+		.sousuo{
+			width:1910px;
+			height:70px;
+			padding-top:50px;
+		}
+		.l1{
+			padding-left:250px;
+			margin-bottom:-12px;
+		}
+		input{
+			padding-left: 245px;
+			margin-left:174px;
+			width:352px;
+			height:38px;
+			color:#e4e4e4;
+			margin-bottom:10px;
+		}
+		.l2{
+			border:1px solid #7f7f7f;
+			width:36px;
+			height:38px;
+			margin-left: -66px;
+			margin-bottom:-16px;
+			padding-right:14px;
+			padding-left: 14px;
+			padding-top:2px;
+			padding-bottom:2px;
+		}
+		.l3{
+			padding-left: 148px;
+			margin-bottom:-14px;
+		}
+
+		.nav{
+			margin-top:10px;
+			width:1910px;
+		}
+		.nav a:hover{
+			border-bottom:2px solid #71bb79;
+			color:#71bb79;
+			padding-bottom:28px;
+		}
+		.nab1{
+			margin-left:250px;
+			font-weight:bold;
+			margin-right:48px;
+		}
+		.nab2{
+			margin-right:89px;
+		}
+		.nab3{
+			margin-right:82px;
+		}
+		.nab4{
+			margin-right:89px;
+		}
+		.nab5{
+			margin-right:74px;
+		}
+		.nab6{
+			margin-right:66px;
+		}
+		.nab7{
+			margin-right:70px;
+		}
+		.nab8{
+			margin-right:70px;
+		}
+		.nab9{
+			margin-right:55px;
+		}
+		.zhixian{
+			border:1px solid #3aa747;
+			margin-top:30px;
+		}
+        .banner{
+			width:100%;
+			height:670px;
+			background: url('imgs/banner.png') no-repeat center;
+		}
+		.zongl{
+			background-color:black;
+			position:fixed;
+			right:0px;
+		}
+		.zongl div{
+			width:74px;
+			height:105px;
+			border-bottom:1px solid #595e5d;
+		}
+		.zongl img{
+			margin-top:36px;
+			margin-left:20px;
+			padding-bottom:28px;
+		}
+
+		.xt{
+			margin-left:386px;
+			margin-top:15px;
+		}
+		.xt1{
+			color:#030a09;
+			font-size:20px;
+		}
+		.xt2{
+			color:#bebebe;
+			font-size:15px;
+		}
+
+		.xty{
+			color:#bebebe;
+			font-size:15px;
+			margin-top:15px;
+			margin-left: 1250px;
+		}
+
+		.daobiao{
+			width:1196px;
+			height:139px;
+			border:1px solid #bebebe;
+			margin-left:250px;
+			margin-top:14px;
+		}
+		.g1{
+			border:1px solid #bebebe;
+		}
+		.gp1{
+			width:97px;
+			height:45px;
+			background-color:#e5e5e5;
+			display:inline-block;
+		}
+		.o1{
+			line-height:45px;
+			margin-left:33px;
+		}
+		.o2{
+			margin-left:40px;
+			color:#737373;
+		}
+		.o3{
+			margin-left:98px;
+			color:#737373;
+		}
+		.o4{
+			margin-left:96px;
+			color:#737373;
+		}
+		.o5{
+			margin-left:92px;
+			color:#737373;
+		}
+		.o6{
+			margin-left:90px;
+			color:#4fae59;
+		}
+		.o7{
+			margin-left:80px;
+			color:#737373;
+		}
+		.o8{
+			margin-left:87px;
+			color:#737373;
+		}
+
+		.g2{
+			border:1px solid #bebebe;
+		}
+		.gp2{
+			width:97px;
+			height:45px;
+			background-color:#e5e5e5;
+			display:inline-block;
+		}
+		.t1{
+			line-height:45px;
+			margin-left:33px;
+		}
+		.t2{
+			margin-left:39px;
+			color:#737373;
+		}
+		.t3{
+			margin-left:98px;
+			color:#737373;
+		}
+		.t4{
+			margin-left:96px;
+			color:#737373;
+		}
+		
+		.g3{
+			border:1px solid #bebebe;
+		}
+		.gp3{
+			width:97px;
+			height:45px;
+			background-color:#e5e5e5;
+			display:inline-block;
+		}
+		.thr1{
+			line-height:45px;
+			margin-left:33px;
+		}
+		.thr2{
+			margin-left:39px;
+			color:#737373;
+		}
+		.thr3{
+			margin-left:96px;
+			color:#737373;
+		}
+		.thr4{
+			margin-left:94px;
+			color:#737373;
+		}
+		.thr5{
+			margin-left:88px;
+			color:#737373;
+		}
+		.thr6{
+			margin-left:87px;
+			color:#737373;
+		}
+		.thr7{
+			margin-left:90px;
+			color:#737373;
+		}
+		.thr8{
+			margin-left:87px;
+			color:#737373;
+		}
+		.thr9{
+			margin-left:185px;
+			margin-top:14px;
+			color:#737373;
+			font-weight:bold;
+		}
+        .shangpin{
+			height:614px;
+			width:1184px;
+			margin-top:57px;
+			margin-left:250px;
+		}
+		.shangpin div{
+			float:left;
+		}
+		.j1{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-80px;
+			opacity:0.9;
+		}
+		.j2{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-40px;
+			opacity:0.9;
+		}
+		.j3{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-33px;
+			opacity:0.9;
+		}
+		.j4{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-53px;
+			opacity:0.9;
+		}
+		.j5{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-48px;
+			opacity:0.9;
+		}
+		.j6{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-48px;
+			opacity:0.9;
+		}
+		.j7{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-46px;
+			opacity:0.9;
+		}
+		.j8{
+			background-color:#474743;
+			width:270px;
+			color:#fff;
+			margin-top:-45px;
+			opacity:0.9;
+		}
+		.j1 p{
+			margin-left:70px;
+		}
+		.j2 p{
+			margin-left:70px;
+		}
+		.j3 p{
+			margin-left:70px;
+		}
+		.j4 p{
+			margin-left:70px;
+		}
+		.j5 p{
+			margin-left:70px;
+		}
+		.j6 p{
+			margin-left:70px;
+		}
+		.j7 p{
+			margin-left:70px;
+		}
+		.j8 p{
+			margin-left:70px;
+		}
+		.bp{
+			margin-bottom:20px;
+			margin-left:40px;
+			color:#fff;
+		}
+		.tp{
+			margin-top:120px;
+			margin-bottom:20px;
+		}
+		.ct{
+			position:absolute;
+			display:none;
+			height:290px;
+			width:270px;
+			color:#fff;
+			font-size:22px;
+		}
+		.sp1{
+			margin-left:64px;
+		}
+		.sp2{
+			margin-left:64px;
+		}
+		
+		.sp1{
+			margin-left:82px;
+		}
+		.sp2{
+			margin-left:82px;
+		}
+		.sp3{
+			margin-left:82px;
+		}
+		.sp4{
+			margin-left:82px;
+		}
+		.sp5{
+			margin-left:82px;
+		}
+		.sp6{
+			margin:64px;
+		}
+		.sp7{
+			margin-left:64px;
+		}
+		.sp8{
+			margin-left:82px;
+		}
+		.ph1{
+			height:288px;
+			width:270px;
+			border:1px solid black;
+		}
+		.ph1:hover .j{
+			display:none;
+		}
+		.ph1:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-295px;
+		}
+		.ph1 img{
+			margin-left:-2px;
+			margin-top:-3px;
+		}
+		.ph2{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-left: 29px;
+		}
+		.ph2 img{
+			margin-left:37px;
+			margin-top:20px;
+		}
+		.ph2:hover .j{
+			display:none;
+		}
+		.ph2:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-257px;
+		}
+		.ph3{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-left:29px;
+		}
+		.ph3 img{
+			margin-left:30px;
+			margin-top:40px;
+		}
+		.ph3:hover .j{
+			display:none;
+		}
+		.ph3:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-250px;
+		}
+		.ph4{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-left: 29px;
+		}
+		.ph4 img{
+			margin-top:40px;
+			margin-left: 35px;
+		}
+		.ph4:hover .j{
+			display:none;
+		}
+		.ph4:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-270px;
+		}
+		
+		.ph5{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-top:32px;
+		}
+  		.ph5 img{
+			margin-top:28px;
+			margin-left:30px;
+		}
+		.ph5:hover .j{
+			display:none;
+		}
+		.ph5:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-265px;
+		}
+		
+		.ph6{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-left: 29px;
+			margin-top:32px;
+		}
+		.ph6 img{
+			margin-left:28px;
+			margin-top:29px;
+		}
+		.ph6:hover .j{
+			display:none;
+		}
+		.ph6:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-265px;
+		}
+		.ph7{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-left: 29px;
+			margin-top:32px;
+		}
+		.ph7 img{
+			margin-top:30px;
+			margin-left:25px;
+		}
+		.ph7:hover .j{
+			display:none;
+		}
+		.ph7:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-263px;
+		}
+		.ph8{
+			width:270px;
+			height:290px;
+			border:1px solid black;
+			margin-left: 29px;
+			margin-top:32px;
+		}
+		.ph8 img{
+			margin-top:34px;
+			margin-left:28px;
+		}
+		.ph8:hover .j{
+			display:none;
+		}
+		.ph8:hover .ct{
+			display:block;
+			text-align:center;
+			background-color:#474743;
+			margin-top:-262px;
+		}
+
+		.dfy{
+			margin-top:100px;
+            height:100px;
+			background-color:#f5f5f5;
+		}
+		.dfy img{
+			float:left;
+		}
+		.dfy div{
+			float:left;
+		}
+		.d1{
+			margin-top:20px;
+			margin-left:250px;
+		}
+		.dfy p{
+			font-size:18px;
+			margin-top:-2px;
+			margin-left:20px;
+			float:left;
+		}
+		.dfy span{
+			float:left;
+			font-size:14px;
+			margin-top:30px;
+			margin-left:-72px;
+		}
+        .fad1{
+			border:1px solid #e0e0e0;
+			height:40px;
+			margin-left:50px;
+		}
+		.d2{
+			margin-left:40px;
+			margin-top:20px;
+		}
+		.fad2{
+			border:1px solid #e0e0e0;
+			height:40px;
+			margin-left:50px;
+		}
+		.d3{
+			margin-left:40px;
+			margin-top:20px;
+		}
+		.fad3{
+			border:1px solid #e0e0e0;
+			height:40px;
+			margin-left:50px;
+		}
+		.d4{
+			margin-left:40px;
+			margin-top:20px;
+		}
+
+		
+		.dtf{
+			height:98px;
+			background-color:#323232;
+		}
+		
+		.dtf a{
+			color:#f5f5f5;
+		}
+		.sen{
+			padding-top:27px;
+			margin-left:590px;
+		}
+		.fin{
+			margin-left:820px;
+			margin-top:17px;
+			color:#f5f5f5;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="uptop">
+		<p>嗯，欢迎来到买猜商城！</p>
+		<a href="#" class="u1">请登录</a>
+		<a href="#" class="u2">免费注册</a>
+		<a href="#" class="u3">我的订单  &nbsp<img src="imgs/pp8Qq9d25xceu4nPJBtEVe.png"></a>
+		<a href="#" class="u4">我的买猜  &nbsp<img src="imgs/pp8Qq9d25xceu4nPJBtEVe.png"></a>
+		<a href="#" class="u5">帮助中心</a>
+		<a href="#" class="u6"><img src="imgs/wb.png">&nbsp</a>
+		<a href="#"><img src="imgs/wx.png"></a>
+	</div>
+
+	<div class="sousuo">
+		<img src="imgs/logo.png" class="l1">
+		<input type="text" name="s" value="请输入搜索内容"><img src="imgs/search.png" class="l2">
+		<img src="imgs/cart.png" class="l3">
+	</div>
+
+	<div class="nav">
+		<a href="#" class="nab1">全部商品分类&nbsp&nbsp<img src="imgs/pp8Qq9d25xceu4nPJBtEVe.png"></a>
+		<a href="#" class="nab2">首页</a>
+		<a href="#" class="nab3">名酒</a>
+		<a href="#" class="nab4">茗茶</a>
+		<a href="#" class="nab5">玉石</a>
+		<a href="#" class="nab6">休闲食品</a>
+		<a href="#" class="nab7">洗护用品</a>
+		<a href="#" class="nab8">土特产</a>
+		<a href="#" class="nab9">积分商城</a>
+		<a href="#">抽奖游戏</a>
+	</div>
+	
+	<div class="zhixian"></div>
+    
+    <div class="toptu">
+		<div class="banner"></div>
+		<div class="zongl">
+			<div class="y1">
+				<a href="#"><img src="imgs/cart1.png"></a>
+			</div>
+			<div class="y2">
+				<a href="#"><img src="imgs/qq.png"></a>
+			</div>
+			<div class="y3">
+				<a href="#"><img src="imgs/zuji.png"></a>
+			</div>
+			<div class="y4">
+				<a href="#"><img src="imgs/erweima.png"></a>
+			</div>
+			<div class="y5">
+				<a href="#"><img src="imgs/gotop.png"></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="xt">
+		<a href="#" class="xt1">首页</a> > <a href="#" class="xt2">玉石</a>
+	</div>
+	
+	<div class="xty">
+		共有200件相关商品
+	</div>
+    
+
+    <div class="daobiao">
+		<div class="g1">
+			<div class="gp1"><a class="o1">玉石</a></div>
+			<a href="#" class="o2">白玉</a>
+			<a href="#" class="o3">碧玉</a>
+			<a href="#" class="o4">黄玉</a>
+			<a href="#" class="o5">和田玉</a>
+			<a href="#" class="o6">翡翠</a>
+			<a href="#" class="o7">绿松玉</a>
+			<a href="#" class="o8">墨玉</a>
+		</div>
+		<div class="g2">
+			<div class="gp2"><a class="t1">其他</a></div>
+			<a href="#" class="t2">吊坠</a>
+			<a href="#" class="t3">扳指</a>
+			<a href="#" class="t4">手镯</a>
+		</div>
+		<div class="g3">
+			<div class="gp3"><a href="#" class="thr1">地区</a></div>
+			<a href="#" class="thr2">北京</a>
+			<a href="#" class="thr3">安徽</a>
+			<a href="#" class="thr4">福建</a>
+			<a href="#" class="thr5">内蒙古</a>
+			<a href="#" class="thr6">宁夏</a>
+			<a href="#" class="thr7">黑龙江</a>
+			<a href="#" class="thr8">河北</a>
+			<a href="#" class="thr9">更多</a>
+		</div>
+	</div>
+    <div class="shangpin">
+		<div class="ph1"><img src="imgs/img1.png">
+			<div class="j1">
+				<p>竞猜价： ￥ 399.00</p><span class="sp1">翡翠千手观音吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥399.00</p><span>翡翠千手观音吊坠</span>
+			</div>
+		</div>
+		<div class="ph2"><img src="imgs/img2.png">
+			<div class="j2">
+				<p>竞猜价： ￥1980.00</p><span class="sp2">翡翠龙凤吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥1980.00</p><span>翡翠龙凤吊坠</span>
+			</div>
+		</div>
+		<div class="ph3"><img src="imgs/img3.png">
+			<div class="j3">
+				<p>竞猜价： ￥199.00</p><span class="sp3">翡翠花蕊吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥199.00</p><span>翡翠花蕊吊坠</span>
+			</div>
+		</div>
+		<div class="ph4"><img src="imgs/img4.png">
+			<div class="j4">
+				<p>竞猜价： ￥199.00</p><span class="sp4">翡翠如意吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥199.00</p><span>翡翠如意吊坠</span>
+			</div>
+		</div>
+		<div class="ph5"><img src="imgs/img5.png">
+			<div class="j5">
+				<p>竞猜价： ￥99.00</p><span class="sp5">翡翠蝉吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥99.00</p><span>翡翠蝉吊坠</span>
+			</div>
+		</div>
+		<div class="ph6"><img src="imgs/img6.png">
+			<div class="j6">
+				<p>竞猜价： ￥99.00</p><span class="sp6">翡翠观音(浅色)吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥99.00</p><p>翡翠观音(浅色)吊坠</p>
+			</div>
+		</div>
+		<div class="ph7"><img src="imgs/img7.png">
+			<div class="j7">
+				<p>竞猜价: ￥199.00</p><span class="sp7">翡翠平安扣(浅色)吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价: ￥199.00</p><span>翡翠平安扣(浅色)吊坠</span>
+			</div>
+		</div>
+		<div class="ph8"><img src="imgs/img8.png">
+			<div class="j8">
+				<p>竞猜价： ￥199.00</p><span class="sp8">翡翠如意吊坠</span>
+			</div>
+			<div class="ct">
+				<p class="ti">竞猜价： ￥199.00</p><span>翡翠如意吊坠</span>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<div class="dfy">
+		<div class="d1">
+			<img src="imgs/f1.png"><p>资质认证</p><span>服务商100%实名认证</span>
+			<div class="fad1"></div>
+		</div>
+		<div class="d2">
+			<img src="imgs/f2.png"><p>支付安全</p><span>明码标价支付及信息安全</span>
+			<div class="fad2"></div>
+		</div>
+		<div class="d3">
+			<img src="imgs/f3.png"><p>保险赔付</p><span>为您提供担保赔付</span>
+			<div class="fad3"></div>
+		</div>
+		<div class="d4">
+			<img src="imgs/f4.png"><p>售后无忧</p><span>服务出问题经理全程跟进</span>
+		</div>
+	</div>
+	
+
+
+
+	<div class="dtf">
+		<div class="sen">
+			<a href="#">首页 &nbsp|</a>
+			<a href="#">&nbsp 工商代理 &nbsp|</a>
+			<a href="#">&nbsp 财务代记账 &nbsp|</a>
+			<a href="#">&nbsp 股权交易与变更 &nbsp|</a>
+			<a href="#">&nbsp 企业贷款 &nbsp|</a>
+			<a href="#">&nbsp 办公室租赁 &nbsp|</a>
+			<a href="#">&nbsp 社保公积金代理 &nbsp|</a>
+			<a href="#">&nbsp 法律服务</a>
+		</div>
+		<p class="fin"> 2017-2018 买猜商城有限公司 版权所有</p>
+	</div>
+</body>
+</html>
